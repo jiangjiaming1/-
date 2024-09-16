@@ -1,0 +1,228 @@
+<?xml version="1.0"?>
+<settings>
+    <Stack>
+        <FillEnabled>0</FillEnabled>
+        <OverflowWarningsEnabled>1</OverflowWarningsEnabled>
+        <WarningThreshold>90</WarningThreshold>
+        <SpWarningsEnabled>1</SpWarningsEnabled>
+        <WarnLogOnly>1</WarnLogOnly>
+        <UseTrigger>1</UseTrigger>
+        <TriggerName>main</TriggerName>
+        <LimitSize>0</LimitSize>
+        <ByteLimit>50</ByteLimit>
+    </Stack>
+    <StLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+        <stlinkResetStyle>0</stlinkResetStyle>
+        <stlinkResetStrategy>2</stlinkResetStrategy>
+        <stlinkserialNo>93740544</stlinkserialNo>
+        <stlinkfoundProbes />
+    </StLinkDriver>
+    <JLinkDriver>
+        <CStepIntDis>_ 0</CStepIntDis>
+        <LeaveTargetRunning>_ 0</LeaveTargetRunning>
+    </JLinkDriver>
+    <DebugChecksum>
+        <Checksum>3810398170</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
+    <CodeCoverage>
+        <Enabled>_ 0</Enabled>
+    </CodeCoverage>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
+    <SWOTraceHWSettings>
+        <OverrideDefaultClocks>0</OverrideDefaultClocks>
+        <CpuClock>180000000</CpuClock>
+        <ClockAutoDetect>0</ClockAutoDetect>
+        <ClockWanted>2000000</ClockWanted>
+        <JtagSpeed>2000000</JtagSpeed>
+        <Prescaler>90</Prescaler>
+        <TimeStampPrescIndex>0</TimeStampPrescIndex>
+        <TimeStampPrescData>0</TimeStampPrescData>
+        <PcSampCYCTAP>1</PcSampCYCTAP>
+        <PcSampPOSTCNT>15</PcSampPOSTCNT>
+        <PcSampIndex>0</PcSampIndex>
+        <DataLogMode>0</DataLogMode>
+        <ITMportsEnable>0</ITMportsEnable>
+        <ITMportsTermIO>0</ITMportsTermIO>
+        <ITMportsLogFile>0</ITMportsLogFile>
+        <ITMlogFile>$PROJ_DIR$\ITM.log</ITMlogFile>
+    </SWOTraceHWSettings>
+    <Jet>
+        <JetConnSerialNo>ATK-HS-V3-CMSIS-DAP:ATK 20190528</JetConnSerialNo>
+        <JetConnFoundProbes />
+        <DisableInterrupts>0</DisableInterrupts>
+        <LeaveRunning>0</LeaveRunning>
+        <MultiCoreRunAll>0</MultiCoreRunAll>
+    </Jet>
+    <PlDriver>
+        <MemConfigValue>D:\IAR\arm\CONFIG\debugger\ST\STM32F427II.ddf</MemConfigValue>
+    </PlDriver>
+    <ArmDriver>
+        <EnableCache>1</EnableCache>
+    </ArmDriver>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
+    <PowerLog>
+        <Title_0>I0</Title_0>
+        <Symbol_0>0 4 0</Symbol_0>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <LiveEnabled>0</LiveEnabled>
+        <LiveFile>PowerLogLive.log</LiveFile>
+    </PowerLog>
+    <PowerProbe>
+        <Frequency>10000</Frequency>
+        <Probe0>I0</Probe0>
+        <ProbeSetup0>2 1 1 2 0 0</ProbeSetup0>
+    </PowerProbe>
+    <watch_formats>
+        <Fmt0>{W}42:Uart6_Rx_Cnt	3	0</Fmt0>
+        <Fmt1>{W}42:b	3	0</Fmt1>
+        <Fmt2>{W}42:g	3	0</Fmt2>
+        <Fmt3>{W}42:r	3	0</Fmt3>
+    </watch_formats>
+    <Trace2>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+    </Trace2>
+    <SWOTraceWindow>
+        <PcSampling>0</PcSampling>
+        <InterruptLogs>0</InterruptLogs>
+        <ForcedTimeStamps>0</ForcedTimeStamps>
+        <EventCPI>0</EventCPI>
+        <EventEXC>0</EventEXC>
+        <EventFOLD>0</EventFOLD>
+        <EventLSU>0</EventLSU>
+        <EventSLEEP>0</EventSLEEP>
+    </SWOTraceWindow>
+    <DataLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+    </DataLog>
+    <InterruptLog>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </InterruptLog>
+    <EventLog>
+        <Title_0>Ch3</Title_0>
+        <Symbol_0>0 0 1</Symbol_0>
+        <Title_1>Ch2</Title_1>
+        <Symbol_1>0 0 1</Symbol_1>
+        <Title_2>Ch1</Title_2>
+        <Symbol_2>0 0 1</Symbol_2>
+        <Title_3>Ch0</Title_3>
+        <Symbol_3>0 0 1</Symbol_3>
+        <LogEnabled>0</LogEnabled>
+        <GraphEnabled>0</GraphEnabled>
+        <ShowTimeLog>1</ShowTimeLog>
+        <SumEnabled>0</SumEnabled>
+        <ShowTimeSum>1</ShowTimeSum>
+        <SumSortOrder>0</SumSortOrder>
+    </EventLog>
+    <DisassembleMode>
+        <mode>0</mode>
+    </DisassembleMode>
+    <Breakpoints2>
+        <Count>0</Count>
+    </Breakpoints2>
+    <LogFile>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+        <Category>_ 0</Category>
+    </LogFile>
+    <Aliases>
+        <A0>_ "C:\Users\30437\Desktop\二车上层2024.3.29\二车上层2024.3.29\二车上层V1.2\二车上层V1.1\Core\Src\main.c" ""</A0>
+        <A1>_ "C:\Users\30437\Desktop\二车上层2024.3.29\二车上层2024.3.29\二车上层V1.2\二车上层V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A1>
+        <A2>_ "C:\Users\30437\Desktop\二车上层2024.6.9\二车上层2024.6.5\二车上层2024.5.21\Core\Src\main.c" ""</A2>
+        <A3>_ "C:\Users\30437\Desktop\二车上层2024.6.9\二车上层2024.6.5\二车上层2024.5.21\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A3>
+        <A4>_ "C:\Users\30437\Desktop\二车上层2024.7.5\二车上层2024.6.5\Core\Src\main.c" ""</A4>
+        <A5>_ "C:\Users\30437\Desktop\二车上层2024.7.5\二车上层2024.6.5\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A5>
+        <A6>_ "C:\Users\30437\Desktop\二车上层2024.7.5\二车上层2024.6.5\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A6>
+        <A7>_ "C:\Users\Jiaming\Desktop\二车上层2024.7.1\二车上层2024.6.5\Core\Src\main.c" ""</A7>
+        <A8>_ "C:\Users\Jiaming\Desktop\二车上层2024.7.1\二车上层2024.6.5\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A8>
+        <A9>_ "C:\Users\LY\Desktop\stm\新建文件夹\Core\Src\main.c" ""</A9>
+        <A10>_ "C:\Users\LY\Desktop\stm\新建文件夹\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A10>
+        <A11>_ "C:\Users\Lenovo\Desktop\舵轮实验版本\Core\Src\gpio.c" ""</A11>
+        <A12>_ "C:\Users\Lenovo\Desktop\舵轮实验版本\Core\Src\main.c" ""</A12>
+        <A13>_ "C:\Users\Lenovo\Desktop\舵轮实验版本\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" ""</A13>
+        <A14>_ "C:\Users\Lenovo\Desktop\舵轮实验版本\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c" ""</A14>
+        <A15>_ "C:\Users\Lenovo\Desktop\舵轮实验版本\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A15>
+        <A16>_ "C:\Users\Lenovo\Desktop\舵轮实验版本\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A16>
+        <A17>_ "C:\Users\Lenovo\Desktop\舵轮实验版本\Middlewares\Third_Party\FreeRTOS\Source\tasks.c" ""</A17>
+        <A18>_ "C:\Users\z1925\Desktop\二车上层2024.6.12\二车上层2024.6.5\Core\Src\main.c" ""</A18>
+        <A19>_ "C:\Users\z1925\Desktop\二车上层2024.6.12\二车上层2024.6.5\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A19>
+        <A20>_ "C:\Users\z1925\Desktop\二车上层2024.6.12\二车上层2024.6.5\Middlewares\Third_Party\FreeRTOS\Source\tasks.c" ""</A20>
+        <A21>_ "D:\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2024-06\二车上层2024.6.12\二车上层2024.6.5\Core\Src\main.c" ""</A21>
+        <A22>_ "D:\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2024-06\二车上层2024.6.12\二车上层2024.6.5\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A22>
+        <A23>_ "D:\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2024-06\二车上层2024.6.12\二车上层2024.6.5\EWARM\startup_stm32f427xx.s" ""</A23>
+        <A24>_ "D:\Wechat\WeChat Files\wxid_kgq0zfff1kkj22\FileStorage\File\2024-05\二车上层2024.5.21\二车上层2024.5.21\Core\Src\main.c" ""</A24>
+        <A25>_ "D:\Wechat\WeChat Files\wxid_kgq0zfff1kkj22\FileStorage\File\2024-05\二车上层2024.5.21\二车上层2024.5.21\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A25>
+        <A26>_ "D:\Wechat\WeChat Files\wxid_kgq0zfff1kkj22\FileStorage\File\2024-05\二车上层2024.5.21\二车上层2024.5.21\Middlewares\Third_Party\FreeRTOS\Source\CMSIS_RTOS_V2\cmsis_os2.c" ""</A26>
+        <A27>_ "D:\Wechat\WeChat Files\wxid_kgq0zfff1kkj22\FileStorage\File\2024-05\二车上层2024.5.21\二车上层2024.5.21\Middlewares\Third_Party\FreeRTOS\Source\tasks.c" ""</A27>
+        <A28>_ "D:\学校文件\RTS队内文件\2023-2024\二车上层\新建文件夹\Core\Src\main.c" ""</A28>
+        <A29>_ "D:\学校文件\RTS队内文件\2023-2024\二车上层\新建文件夹\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A29>
+        <A30>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\RTS_DJI_A\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" ""</A30>
+        <A31>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\RTS_DJI_A\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c" ""</A31>
+        <A32>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\RTS_DJI_A\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c" ""</A32>
+        <A33>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\RTS_DJI_A\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A33>
+        <A34>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\RTS_DJI_A\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c" ""</A34>
+        <A35>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\RTS_DJI_A\EWARM\startup_stm32f427xx.s" ""</A35>
+        <A36>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\RTS_DJI_A\Middlewares\Third_Party\FreeRTOS\Source\list.c" ""</A36>
+        <A37>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\RTS_DJI_A\Middlewares\Third_Party\FreeRTOS\Source\portable\IAR\ARM_CM4F\port.c" ""</A37>
+        <A38>_ "D:\文档\WeChat Files\wxid_3zrceute2ido22\FileStorage\File\2023-11\RTS_DJI_A\Middlewares\Third_Party\FreeRTOS\Source\tasks.c" ""</A38>
+        <A39>_ "E:\Universityfiles\RTSfiles\2023-2024\2024.5.7\二车上层2024.5.6(改版通信)\Core\Src\main.c" ""</A39>
+        <A40>_ "E:\Universityfiles\RTSfiles\2023-2024\2024.5.7\二车上层2024.5.6(改版通信)\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A40>
+        <A41>_ "E:\Universityfiles\RTSfiles\2023-2024\二车上层\二车上层2024.3.29\二车上层2024.3.29\二车上层V1.2\二车上层V1.1\Core\Src\main.c" ""</A41>
+        <A42>_ "E:\Universityfiles\RTSfiles\2023-2024\二车上层\二车上层2024.3.29\二车上层2024.3.29\二车上层V1.2\二车上层V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A42>
+        <A43>_ "E:\robocon\2024-二车程序\二车上层2024.5.4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" ""</A43>
+        <A44>_ "E:\robocon\2024-二车程序\二车上层2024.5.4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c" ""</A44>
+        <A45>_ "E:\robocon\2024-二车程序\二车上层2024.5.4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A45>
+        <A46>_ "E:\robocon\2024-二车程序\二车上层2024.5.4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c" ""</A46>
+        <A47>_ "E:\robocon\2024-二车程序\二车改完串口版\二车改完串口版\二车上层V1.2 (2)\二车上层V1.2\二车上层V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c" ""</A47>
+        <A48>_ "E:\robocon\2024-二车程序\二车改完串口版\二车改完串口版\二车上层V1.2 (2)\二车上层V1.2\二车上层V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A48>
+        <A49>_ "E:\robocon\2024-二车程序\二车改完串口版\二车改完串口版\二车上层V1.2 (2)\二车上层V1.2\二车上层V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c" ""</A49>
+        <A50>_ "E:\robocon\2024-二车程序\二车改完串口版\二车改完串口版\二车上层V1.2 (2)\二车上层V1.2\二车上层V1.1\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_uart.c" ""</A50>
+        <A51>_ "E:\二车上层2024.5.4\Core\Src\main.c" ""</A51>
+        <A52>_ "E:\二车上层2024.5.4\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" ""</A52>
+        <Count>53</Count>
+        <SuppressDialog>0</SuppressDialog>
+    </Aliases>
+    <DriverProfiling>
+        <Enabled>0</Enabled>
+        <Mode>3</Mode>
+        <Graph>0</Graph>
+        <Symbiont>0</Symbiont>
+        <Exclusions />
+    </DriverProfiling>
+    <CallStackLog>
+        <Enabled>0</Enabled>
+    </CallStackLog>
+    <CallStackStripe>
+        <ShowTiming>1</ShowTiming>
+    </CallStackStripe>
+    <TermIOLog>
+        <LoggingEnabled>_ 0</LoggingEnabled>
+        <LogFile>_ ""</LogFile>
+    </TermIOLog>
+</settings>

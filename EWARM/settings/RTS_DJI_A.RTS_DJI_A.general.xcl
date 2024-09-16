@@ -1,0 +1,15 @@
+"E:\Softwore\IAR\IARjiu\arm\bin\armproc.dll" 
+
+"E:\Softwore\IAR\IARjiu\arm\bin\armstlink2.dll" 
+
+"C:\Users\z1925\Desktop\舵轮实验版本 (2)\EWARM\RTS_DJI_A\Exe\RTS_DJI_A.out" 
+
+--plugin="E:\Softwore\IAR\IARjiu\arm\bin\armbat.dll" 
+
+--device_macro="E:\Softwore\IAR\IARjiu\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader="E:\Softwore\IAR\IARjiu\arm\config\flashloader\ST\FlashSTM32F427xI.board" 
+
+
+
+

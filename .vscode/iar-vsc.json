@@ -1,0 +1,13 @@
+{
+  "workspace": {
+    "path": "${workspaceFolder}\\二车上层2024.6.5\\二车上层2024.5.21\\yanse\\EWARM\\Project.eww"
+  },
+  "workspaces": {
+    "${workspaceFolder}\\二车上层2024.6.5\\二车上层2024.5.21\\yanse\\EWARM\\Project.eww": {
+      "configs": {},
+      "selected": {
+        "path": "${workspaceFolder}\\二车上层2024.6.5\\二车上层2024.5.21\\yanse\\EWARM\\RTS_DJI_A.ewp"
+      }
+    }
+  }
+}
