@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BuildDb>
+    <Tool>
+        <Name>linker</Name>
+        <Parent>
+            <Path>G:\STM32_DeepJ60_test\EWARM\STM32_DeepJ60_test\Exe\STM32_DeepJ60_test.out</Path>
+            <Output>
+                <Path>G:\STM32_DeepJ60_test\EWARM\STM32_DeepJ60_test\List\STM32_DeepJ60_test.map</Path>
+            </Output>
+        </Parent>
+    </Tool>
+</BuildDb>

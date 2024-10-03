@@ -1,0 +1,15 @@
+"D:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armPROC.dll" 
+
+"D:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armSTLINK.dll" 
+
+"G:\云深处J60-6\STM32_DeepJ60_test\EWARM\STM32_DeepJ60_test\Exe\STM32_DeepJ60_test.out" 
+
+--plugin="D:\Program Files\IAR Systems\Embedded Workbench 9.2\arm\bin\armLibSupportUniversal.dll" 
+
+--device_macro="D:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/debugger/ST/STM32F4xx.dmac" 
+
+--flash_loader="D:\Program Files\IAR Systems\Embedded Workbench 9.2\arm/config/flashloader/ST/FlashSTM32F4xxx.board" 
+
+
+
+
