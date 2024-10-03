@@ -165,6 +165,6 @@ uint8_t RunJ60MotorPositonVelocityTorqueMode (uint8_t MotorID, float Position, f
 uint8_t RunJ60Motor (uint8_t MotorID, float Position, float Velocity, float Torque, float Kp, float Kd, enum MotorMode Mode);
 uint8_t GetJ60MotorStatusWord (uint8_t MotorID);
 uint8_t J60MotorErrorReset (uint8_t MotorID);
-
+//dadadadada
 // Analyse received data
 void AnalyseJ60MotorReceiveData (void);
